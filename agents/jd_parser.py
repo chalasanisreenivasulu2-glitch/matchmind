@@ -58,7 +58,7 @@ class JDParserAgent:
         # --- Skill extraction ---
         required_skills = [
             skill for skill in CORE_SKILLS
-            if skill.lower() in text_lower
+            if re.search(r'\b' + re.escape(skill.lower()) + r'\b', text_lower)
         ]
 
         # --- Experience range ---

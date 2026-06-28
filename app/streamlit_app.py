@@ -138,18 +138,17 @@ if run:
     c4.metric("Runtime", f"{elapsed:.2f}s")
 
     # ── JD Parsed ─────────────────────────────────────────────────────────────
-    with st.expander("📋 JD Parser Agent output", expanded=False):
+    with st.expander("📋 JD Parser Agent output", expanded=True):
         col_a, col_b = st.columns(2)
         col_a.markdown("**Required skills extracted:**")
         if jd_parsed["required_skills"]:
-            for sk in jd_parsed["required_skills"]:
-                col_a.markdown(f"- {sk}")
+            col_a.markdown(" · ".join(f"`{sk}`" for sk in jd_parsed["required_skills"]))
         else:
-            col_a.caption("None matched from closed vocabulary")
+            col_a.caption("None matched from closed vocabulary — semantic similarity still applied")
 
-        col_b.markdown(f"**Experience range:** {jd_parsed['min_experience_years']:.0f}–{jd_parsed['max_experience_years']:.0f} yrs")
-        col_b.markdown(f"**Preferred locations:** {', '.join(jd_parsed['preferred_locations']) or 'Any'}")
-        col_b.markdown(f"**Product company required:** {'Yes' if jd_parsed['requires_product_company'] else 'Not specified'}")
+        col_b.markdown(f"**Experience range:** `{jd_parsed['min_experience_years']:.0f}–{jd_parsed['max_experience_years']:.0f} yrs`")
+        col_b.markdown(f"**Preferred locations:** `{', '.join(jd_parsed['preferred_locations']) if jd_parsed['preferred_locations'] else 'Any'}`")
+        col_b.markdown(f"**Product company required:** `{'Yes' if jd_parsed['requires_product_company'] else 'Not specified'}`")
 
     # ── Ranked results ────────────────────────────────────────────────────────
     st.subheader("3. Ranked Candidates")

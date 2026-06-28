@@ -8,20 +8,20 @@ team_name: "Disha and Sethu"
 
 primary_contact:
   name: "Chalasani Sreenivasulu"
-  email: "chalasanisreenivasulu2@gmail.com"
-  phone: "+919491877805"
+  email: "FILL IN — your email"
+  phone: "FILL IN — your phone"
 
 team_members:
   - name: "Chalasani Sreenivasulu"
     role: "Solo participant"
-    email: "chalasanisreenivasulu2@gmail.com"
+    email: "FILL IN"
 
 # ============================================================
 # Submission Links
 # ============================================================
 github_repo: "https://github.com/chalasanisreenivasulu2-glitch/matchmind"
 
-sandbox_link: "https://c3i8mzuyjr8prkgwydqcbp.streamlit.app/"
+sandbox_link: "FILL IN — your Streamlit / HF Spaces URL once deployed"
 
 # ============================================================
 # Product
