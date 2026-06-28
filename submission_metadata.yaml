@@ -1,0 +1,76 @@
+# MatchMind — Ideathon Track 1 Submission Metadata
+# Team: Disha and Sethu | Redrob India.Runs Hackathon
+
+# ============================================================
+# Team Identity
+# ============================================================
+team_name: "Disha and Sethu"
+
+primary_contact:
+  name: "Chalasani Sreenivasulu"
+  email: "chalasanisreenivasulu2@gmail.com"
+  phone: "+919491877805"
+
+team_members:
+  - name: "Chalasani Sreenivasulu"
+    role: "Solo participant"
+    email: "chalasanisreenivasulu2@gmail.com"
+
+# ============================================================
+# Submission Links
+# ============================================================
+github_repo: "https://github.com/chalasanisreenivasulu2-glitch/matchmind"
+
+sandbox_link: "https://c3i8mzuyjr8prkgwydqcbp.streamlit.app/"
+
+# ============================================================
+# Product
+# ============================================================
+product_name: "MatchMind"
+
+problem_statement: >
+  Redrob's candidate discovery relies on keyword search and opaque
+  ranking — missing qualified candidates who describe their work
+  differently, rewarding keyword-stuffers, and providing zero
+  explanation for why any candidate ranked where they did.
+
+solution_summary: >
+  MatchMind is a multi-agent autonomous recruiting intelligence system.
+  Five coordinated AI agents (JD Parser, Ranking, Fraud Detection,
+  Explanation, Feedback Learning) replace keyword search with semantic
+  understanding, transparent explainable ranking, and a continuous
+  feedback loop driven by recruiter actions — all running autonomously
+  without human intervention.
+
+# ============================================================
+# AI Tools Used
+# ============================================================
+ai_tools_used:
+  - "Claude (Anthropic) — architecture design, codebase development"
+
+# ============================================================
+# Tech Stack
+# ============================================================
+tech_stack:
+  - "Python 3.10+"
+  - "scikit-learn (TF-IDF, cosine similarity)"
+  - "numpy"
+  - "Streamlit (sandbox demo)"
+  - "LightGBM (Phase 3 — LTR reranker, planned)"
+  - "sentence-transformers / BGE (Phase 2 — embedding upgrade, planned)"
+
+# ============================================================
+# Track
+# ============================================================
+track: "Track 1 — AI Systems & Workflow Innovation Challenge"
+challenge: "Ideathon"
+
+# ============================================================
+# Declarations
+# ============================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  ai_tools_declared: true
+  demo_link_working: false   # set to true once Streamlit/HF Spaces is deployed
