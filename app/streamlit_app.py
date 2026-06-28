@@ -54,7 +54,7 @@ All coordinated by the **Orchestrator**.
     st.divider()
     st.markdown("""
 **Data**
-- Default: 50-candidate sample from the official challenge bundle
+- Default: 500-candidate sample from real dataset from the official challenge bundle
 - Upload your own JSON/JSONL to test with different candidates
 """)
     uploaded = st.file_uploader(
