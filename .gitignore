@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+data/candidates.jsonl
+data/feedback.jsonl
+*.egg-info/
+.DS_Store
