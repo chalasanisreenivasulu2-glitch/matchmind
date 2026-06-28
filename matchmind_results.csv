@@ -1,0 +1,11 @@
+candidate_id,rank,score,reasoning
+CAND_0000031,1,1.0823,"Holds Pinecone, Embeddings, Information Retrieval; Recommendation Systems Engineer at Swiggy, 6.0 yrs."
+CAND_0000001,2,0.2345,"6.9 yrs lands in the JD's 5-9 yr target band; Backend Engineer at Mindtree, 6.9 yrs; location isn't Pune/Noida or one of the JD's welcomed hub cities."
+CAND_0000010,3,0.2195,"Data Engineer at Ola, 4.6 yrs; 4.6 yrs lands in the JD's 5-9 yr target band; 120-day notice period exceeds the JD's preferred window."
+CAND_0000043,4,0.0729,"Holds Elasticsearch, Kubeflow, Haystack; Cloud Engineer at Swiggy, 8.3 yrs; notice period (120 days) runs past the JD's sub-30-day ask."
+CAND_0000014,5,0.0717,"Frontend Engineer at Zomato, 8.4 yrs; 8.4 yrs lands in the JD's 5-9 yr target band."
+CAND_0000038,6,0.0696,"6.7 yrs lands in the JD's 5-9 yr target band; Java Developer at Swiggy, 6.7 yrs; location isn't Pune/Noida or one of the JD's welcomed hub cities."
+CAND_0000015,7,0.0652,"Software Engineer at Razorpay, 5.4 yrs; 5.4 yrs lands in the JD's 5-9 yr target band; city isn't among the JD's preferred or welcomed locations."
+CAND_0000018,8,0.0553,"Frontend Engineer at Acme Corp, 6.6 yrs; 6.6 yrs lands in the JD's 5-9 yr target band; 120-day notice period exceeds the JD's preferred window."
+CAND_0000048,9,0.0552,"Mobile Developer at CRED, 9.7 yrs; 9.7 yrs lands in the JD's 5-9 yr target band; 120-day notice, longer than the JD's sub-30-day preference."
+CAND_0000023,10,0.0500,"Software Engineer at Acme Corp, 3.7 yrs; career almost entirely at product companies, not services; city isn't among the JD's preferred or welcomed locations."

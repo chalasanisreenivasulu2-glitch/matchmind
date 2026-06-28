@@ -7,3 +7,7 @@ data/candidates.jsonl
 data/feedback.jsonl
 *.egg-info/
 .DS_Store
+
+matchmind/candidates.jsonl
+
+matchmind/matchmind/candidates.jsonl
